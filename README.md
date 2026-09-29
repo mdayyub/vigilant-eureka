@@ -7,7 +7,7 @@ The C# rewrite is done. It compiles cleanly with the Mono C# compiler here, but 
 
 - Put ``ScheduledClicker.cs`` and ``build.bat`` in the same folder.
 - Double-click ``build.bat``. It uses the C# compiler already built into Windows 11, so you don't need Visual Studio.
-- Run the ``ScheduledClicker.exe it produces.
+- Run the ``ScheduledClicker.exe`` it produces.
 
 #### I wrote the code in C# 5 syntax so that Windows' built-in compiler can build it. ``ScheduledClicker.csproj`` is optional and only for building with Visual Studio or ``dotnet build``.
 
