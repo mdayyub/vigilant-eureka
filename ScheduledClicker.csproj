@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Optional: only needed if you prefer building with Visual Studio / dotnet CLI.
+       build.bat works without any of this. -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>ScheduledClicker</AssemblyName>
+    <RootNamespace>ScheduledClicker</RootNamespace>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <ApplicationIcon>mouse.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+</Project>
